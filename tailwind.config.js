@@ -4,7 +4,11 @@ module.exports = {
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        "overlay": "hsla(0, 0%, 0%, 0.7)",
+      }
+    },
   },
   plugins: [],
 }

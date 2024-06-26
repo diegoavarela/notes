@@ -6,6 +6,14 @@
   .tool {
     @apply ml-3 pl-1 pr-1 rounded-md hover:bg-zinc-200
   }
+
+  .normal-text {
+    @apply bg-white border border-zinc-300 p-4 px-7 hover:bg-slate-100
+  }
+
+  .button {
+    @apply bg-indigo-400 border border-white p-4 pl-6 pr-6 rounded-lg mt-4 text-white font-bold  hover:bg-violet-600
+  }
 }
 
 body {

@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function Header() {
+export default function Header({logIn}) {
   return (
     <div className=" bg-violet-300 flex flex-row w-screen shadow-md">
       <div className="w-[100%] p-4">
@@ -10,7 +10,7 @@ export default function Header() {
         <p className="pl-9">Take notes on the go</p>
       </div>
       <div className="flex flex-row justify-end w-[100%] pr-4 items-center">
-        <button className="mr-4">Log In</button>
+        <button onClick={logIn} className="mr-4">Log In</button>
         <button className=" bg-violet-600 h-10 pl-4 pr-4 rounded-lg text-white hover:bg-violet-400">Sign Up</button>
       </div>
     </div>
